@@ -4,11 +4,12 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace SuitSupply.Api.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class ValuesControllerTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Get_ShouldReturnAllProducts()
         {
+
         }
     }
 }
