@@ -1,6 +1,8 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
 using SuitSupply.Api.Controllers;
 using SuitSupply.Api.Domain;
+using SuitSupply.Api.Domain.Services;
 using System.Collections.Generic;
 
 namespace SuitSupply.Api.UnitTests
@@ -12,8 +14,11 @@ namespace SuitSupply.Api.UnitTests
         public void Get_ShouldReturnAllProducts()
         {
             // Arrange
+            var mockService = new Mock<IProductService>();
             var testProducts = this.GetProducts();
-            var controller = new ProductsController(testProducts);
+            mockService.Setup(x => x.GetProducts()).Returns(testProducts);
+
+            var controller = new ProductsController(mockService.Object);
 
             // Act
             var results = controller.Get();

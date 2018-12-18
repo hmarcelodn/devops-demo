@@ -1,3 +1,7 @@
+C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api.UnitTests\obj\Debug\netcoreapp2.0\SuitSupply.Api.UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api.UnitTests\obj\Debug\netcoreapp2.0\SuitSupply.Api.UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api.UnitTests\obj\Debug\netcoreapp2.0\SuitSupply.Api.UnitTests.AssemblyInfoInputs.cache
+C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api.UnitTests\obj\Debug\netcoreapp2.0\SuitSupply.Api.UnitTests.AssemblyInfo.cs
 C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api.UnitTests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api.UnitTests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api.UnitTests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -8,9 +12,5 @@ C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api.UnitTests\bin\Debug\
 C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api.UnitTests\bin\Debug\netcoreapp2.0\SuitSupply.Api.UnitTests.pdb
 C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api.UnitTests\bin\Debug\netcoreapp2.0\SuitSupply.Api.dll
 C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api.UnitTests\bin\Debug\netcoreapp2.0\SuitSupply.Api.pdb
-C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api.UnitTests\obj\Debug\netcoreapp2.0\SuitSupply.Api.UnitTests.csprojResolveAssemblyReference.cache
-C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api.UnitTests\obj\Debug\netcoreapp2.0\SuitSupply.Api.UnitTests.csproj.CoreCompileInputs.cache
-C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api.UnitTests\obj\Debug\netcoreapp2.0\SuitSupply.Api.UnitTests.AssemblyInfoInputs.cache
-C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api.UnitTests\obj\Debug\netcoreapp2.0\SuitSupply.Api.UnitTests.AssemblyInfo.cs
 C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api.UnitTests\obj\Debug\netcoreapp2.0\SuitSupply.Api.UnitTests.dll
 C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api.UnitTests\obj\Debug\netcoreapp2.0\SuitSupply.Api.UnitTests.pdb
