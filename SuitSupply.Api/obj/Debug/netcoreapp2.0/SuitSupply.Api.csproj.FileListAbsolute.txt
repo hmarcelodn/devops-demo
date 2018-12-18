@@ -1,0 +1,11 @@
+C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api\bin\Debug\netcoreapp2.0\SuitSupply.Api.deps.json
+C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api\bin\Debug\netcoreapp2.0\SuitSupply.Api.runtimeconfig.json
+C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api\bin\Debug\netcoreapp2.0\SuitSupply.Api.runtimeconfig.dev.json
+C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api\bin\Debug\netcoreapp2.0\SuitSupply.Api.dll
+C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api\bin\Debug\netcoreapp2.0\SuitSupply.Api.pdb
+C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api\obj\Debug\netcoreapp2.0\SuitSupply.Api.csprojResolveAssemblyReference.cache
+C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api\obj\Debug\netcoreapp2.0\SuitSupply.Api.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api\obj\Debug\netcoreapp2.0\SuitSupply.Api.AssemblyInfoInputs.cache
+C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api\obj\Debug\netcoreapp2.0\SuitSupply.Api.AssemblyInfo.cs
+C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api\obj\Debug\netcoreapp2.0\SuitSupply.Api.dll
+C:\Users\Marcelo\source\repos\SuitSupply.Api\SuitSupply.Api\obj\Debug\netcoreapp2.0\SuitSupply.Api.pdb

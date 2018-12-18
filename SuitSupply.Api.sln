@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuitSupply.Api", "SuitSupply.Api\SuitSupply.Api.csproj", "{607B4DF0-D3FF-4B67-94F0-B2876C01E9FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuitSupply.Api.Tests", "SuitSupply.Api.Tests\SuitSupply.Api.Tests.csproj", "{BE1A4542-8203-4537-B60E-89DDF6D0C79E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{607B4DF0-D3FF-4B67-94F0-B2876C01E9FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{607B4DF0-D3FF-4B67-94F0-B2876C01E9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{607B4DF0-D3FF-4B67-94F0-B2876C01E9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{607B4DF0-D3FF-4B67-94F0-B2876C01E9FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE1A4542-8203-4537-B60E-89DDF6D0C79E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1A4542-8203-4537-B60E-89DDF6D0C79E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1A4542-8203-4537-B60E-89DDF6D0C79E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1A4542-8203-4537-B60E-89DDF6D0C79E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C50CC43D-2279-464C-B37C-3C733E470E28}
+	EndGlobalSection
+EndGlobal
