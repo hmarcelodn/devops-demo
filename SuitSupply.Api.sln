@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuitSupply.Api", "SuitSuppl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuitSupply.Api.UnitTests", "SuitSupply.Api.UnitTests\SuitSupply.Api.UnitTests.csproj", "{8B2DB3A1-FE00-4040-A93A-98CF3D0C789D}"
 EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "SuitSupplyResourceGroup", "SuitSupplyResourceGroup\SuitSupplyResourceGroup.deployproj", "{BBDA2276-DDBF-4C35-8ED8-FE71C3FC0DBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8B2DB3A1-FE00-4040-A93A-98CF3D0C789D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B2DB3A1-FE00-4040-A93A-98CF3D0C789D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B2DB3A1-FE00-4040-A93A-98CF3D0C789D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBDA2276-DDBF-4C35-8ED8-FE71C3FC0DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBDA2276-DDBF-4C35-8ED8-FE71C3FC0DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBDA2276-DDBF-4C35-8ED8-FE71C3FC0DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBDA2276-DDBF-4C35-8ED8-FE71C3FC0DBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
