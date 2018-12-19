@@ -10,7 +10,8 @@ namespace SuitSupply.Api.Services
         {
             var dummyProducts = new List<Product>();
             dummyProducts.Add(new Product(1, "Dummy 1", 3.75M));
-            dummyProducts.Add(new Product(1, "Dummy 2", 4.75M));
+            dummyProducts.Add(new Product(2, "Dummy 2", 4.75M));
+            dummyProducts.Add(new Product(3, "Dummy 3", 4.75M));
 
             return dummyProducts;
         }
