@@ -35,7 +35,7 @@ namespace SuitSupply.Api
                 {
                     Version = "v1",
                     Title = "SuitSupply",
-                    Description = "SuitSupply Web API",
+                    Description = "SuitSupply API",
                     TermsOfService = "None",
                     Contact = new Contact() { Name = "SuitSupply", Email = "contact@suitsupply.com", Url = "www.suitsupply.com" }
                 });
