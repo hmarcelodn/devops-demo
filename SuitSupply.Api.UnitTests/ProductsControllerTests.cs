@@ -27,6 +27,7 @@ namespace SuitSupply.Api.UnitTests
             Assert.IsNotNull(results);
             Assert.AreEqual(testProducts.Count, results.Count);
             Assert.AreEqual(testProducts[0].Name, results[0].Name);
+            mockService.Verify(mock => mock.GetProducts(), Times.Once());
         }
 
         private IList<Product> GetProducts()
