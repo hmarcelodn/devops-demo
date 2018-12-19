@@ -79,7 +79,7 @@
       "resources": [
         {
           "apiVersion": "2015-08-01",
-          "name": "concat([variables('webSiteName')], '-','secondary')",
+          "name": "secondarySlot",
           "type": "slots",
           "tags": {
             "displayName": "WebAppSlots"
