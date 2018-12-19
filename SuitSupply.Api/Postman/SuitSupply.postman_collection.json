@@ -1,0 +1,45 @@
+{
+	"variables": [],
+	"info": {
+		"name": "SuitSupply",
+		"_postman_id": "ea0d94ac-39c9-4d83-b796-c52eae92a8e7",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Values",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"tests[\"Response time is less than 200ms\"] = responseTime < 200;",
+							"",
+							"var jsonData = JSON.parse(responseBody);",
+							"tests[\"Test Id is valid\"] = jsonData[0].id === 1;",
+							"",
+							"var jsonData = JSON.parse(responseBody);",
+							"tests[\"Test Name is valid\"] = jsonData[0].name === \"Dummy 1\";",
+							"",
+							"var jsonData = JSON.parse(responseBody);",
+							"tests[\"Test Count is valid\"] = jsonData.length === 2;",
+							"",
+							"tests[\"Content-Type is present\"] = postman.getResponseHeader(\"Content-Type\");"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "http://localhost:64324/api/products",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

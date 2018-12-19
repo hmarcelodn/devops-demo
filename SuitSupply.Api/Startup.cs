@@ -10,6 +10,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using SuitSupply.Api.Domain.Services;
 using SuitSupply.Api.Services;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace SuitSupply.Api
 {
@@ -28,6 +29,17 @@ namespace SuitSupply.Api
             services.AddMvc();
             services.AddCors();
             services.AddTransient<IProductService, ProductService>();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Info
+                {
+                    Version = "v1",
+                    Title = "SuitSupply",
+                    Description = "SuitSupply API",
+                    TermsOfService = "None",
+                    Contact = new Contact() { Name = "SuitSupply", Email = "contact@suitsupply.com", Url = "www.suitsupply.com" }
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,6 +51,11 @@ namespace SuitSupply.Api
             }
 
             app.UseMvc();
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "SuitSupply V1");
+            });
         }
     }
 }
